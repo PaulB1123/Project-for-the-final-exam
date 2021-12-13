@@ -32,25 +32,58 @@
 </header>   
 
 <main>
-    <div class="slide hi-slide">
+    <div class="slide hi-slide" id="hi_slide_main">
+
+        <!-- radio buttons start -->
+        <input type="ratio" name="ratio-btn" id="radio1">
+        <input type="ratio" name="ratio-btn" id="radio2">
+        <input type="ratio" name="ratio-btn" id="radio3">
+<!-- radio buttons end -->
+
+<!-- arrow buttons start -->
         <div class="hi-prev"></div>
         <div class="hi-next"></div>
-        <ul>
+        <!-- arrow buttons start -->
+        <ul class="ul_slide">
             <li>
-                <img src="/images_for_the_slide_bar/Work_shop.jpg" alt="work_shop">
+                <img src="/images_for_the_slide_bar/Work_shop.jpg" class="first_slide" alt="work_shop">
             </li>
 
             <li>
-                <img src="/images_for_the_slide_bar/Collection_Stuhr.jpg" alt="Collection Stuhr">
+                <img src="/images_for_the_slide_bar/Collection_Stuhr.jpg" class="second_slide" alt="Collection Stuhr">
             </li>
 
             <li>
-                <img src="/images_for_the_slide_bar/Collection_Marianna.jpg" alt="Collection Marianna">
+                <img src="/images_for_the_slide_bar/Collection_Marianna.jpg" class="third-slide"  alt="Collection Marianna">
             </li>
+
+            
         </ul>
+
+
+<div class="naviagtion-auto">
+    <div class="auto-btn1"></div>
+    <div class="auto-btn2"></div>
+    <div class="auto-btn3"></div>
+</div>
+
+<div class="navigation-manual">
+<label for="radio1" class="manual-btn"></label>
+<label for="radio2" class="manual-btn"></label>
+<label for="radio3" class="manual-btn"></label>
+</div>
+
     </div>
 </main>
 
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="js/script_index.js"></script>
+<!-- 
+<script src="/js/jquery.hislide.js"></script> -->
+<!-- <script>
+
+    $(".slide").hiSlide();
+</script> -->
 
 </body>
 </html>
