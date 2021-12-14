@@ -247,6 +247,8 @@ margin-bottom: 2rem;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-bottom: 4rem;
+border-bottom: 0.6px solid  #BDBDBD
  
  }
 
@@ -356,6 +358,54 @@ padding: 0rem;
 display: flex;
 justify-content: center;
 align-items: center;
+font-family: 'Montserrat', sans-serif;
+margin-top: 3rem;
+height: 120px;
+padding-bottom: 4rem;
+border-bottom: 0.6px solid  #BDBDBD;
 }
 
+button {
+    background-color: #C7D4DD; /* Green */
+    border: none;
+    color:  black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 3px;
+    cursor: pointer;
+  }
+
 /* MOST POPULAR ENDS */
+
+/* VIDEO START  */
+
+.video_container {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.video_container h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Bodoni Moda', serif;
+    letter-spacing: 12px;
+    margin-bottom: 2rem;
+    }
+
+    iframe {
+        margin-top: 3rem;
+        margin-left: 39vw;
+        transform: translate(-40%);
+}
+      
+/* .video_container {
+height: 800px;
+border-bottom: 0.6px solid  #BDBDBD;
+} */
+    
+/* VIDEO ENDS  */
