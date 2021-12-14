@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/proxima_nova/Proxima\ Nova\ Font.otf");
+  }
+  
+  @font-face {
+    font-family: "Bodoni MT";
+    src: url("../fonts/proxima_nova/BodoniModa-VariableFont_opsz\,wght.ttf");
+  }
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,500&display=swap');
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -171,7 +188,7 @@ input {
 }
 
 .manual-btn{
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -183,7 +200,7 @@ input {
 }
 
 .manual-btn:hover {
-    background: black;
+    background: white;
 }
 
 #radio1:checked ~ .first {
@@ -209,68 +226,136 @@ input {
 
 /* NEW IN STARTS */
 
-.new_in {
-        width: 100%;
-        height: 100vh;
+
+.templates {
+    width: 100%;
+    height: 100vh;
 }
 
-.new_in h2 {
-    text-align: center;
-    font-size: 30px;
+.templates h2 {
+text-align: center;
+font-size: 32px;
+font-family: 'Bodoni Moda', serif;
+letter-spacing: 12px;
+margin-bottom: 2rem;
 }
 
-.group_images {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
 
-}
+.card_for_template {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+ }
 
-.image1{
-    padding: 0 20px 20px;
-}
 
-/* .group1{
-    width: 350px;
-    height: 350px;
-    overflow: hidden;
+.img_for_all {
     position: relative;
+    margin: 1rem;
 }
-
-.image1{
-    position: absolute;
   
-}
 
-.overlay {
-    position: absolute;
+  article h3 {
+    font-size: 25px;
+    font-family: Proxima Nova;
+    color: white;
+    letter-spacing: 8px;
+    line-height: 40px;
     text-align: center;
-    width: 100%;
-    top: 50%;
-    margin: 0;
+  }
+
+  .h2_jars{
+    color: black;
 }
 
-.group2{
-    width: 350px;
-    height: 350px;
-    overflow: hidden;
-    position: relative;
-}
-
-.image2{
+  article h3 {
     position: absolute;
+    left: 0%;
+    top: 40%;
+  }
+
+  .h2_bowls{
+    color: white;
+    left: 30%;
 }
-
-.overlay2 {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    top: 50%;
-    margin: 0;
-} */
-
-
 
 /* NEW IN ENDS */
+
+
+/* MOST POPULAR STARTS */
+
+.discover {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.discover h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Bodoni Moda', serif;
+    letter-spacing: 12px;
+    margin-bottom: 3.5rem;
+    }
+    
+
+.discover ul {
+ display: flex;
+ flex-direction: row;
+ list-style-type: none;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 13px;
+ justify-content: space-evenly;
+ margin: 0rem;
+ padding: 0rem;
+}
+
+.discover ul li:hover {
+    border: 2px solid black;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.discover ul a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+}
+
+.images_for_discover {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.info_for_product  img {
+    width: 92%;
+    margin: 0.4rem;
+    margin-top: 5rem;
+}
+
+
+.info_for_product h4 {
+color: #ABABAB;
+font-size: 18px;
+margin: 0rem;
+padding: 0rem;
+}
+
+.info_for_product h5 {
+    color: #ABABAB;
+    margin: 0rem;
+    font-size: 12px;
+  padding: 0rem;
+    }
+
+
+.button_for_discover {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* MOST POPULAR ENDS */
