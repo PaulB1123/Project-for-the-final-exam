@@ -1,7 +1,30 @@
-/* HERO IMAGE FOR PRODUCT PAGE START*/
+/* LOGO TO CHANGE START*/
+
+#logo_to_use {
+    width: 30px;
+    height: 30px;
+   
+}
+
+.small_logo {
+    background-image: url("/images_for_the_navigation_bar/small_logo.svg");
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
 .img_product_page  {
     width: 90%;
 }
+
+/* LOGO TO CHANGE ENDS*/
+
+/* HERO IMAGE FOR PRODUCT PAGE START*/
+
 
 .main_product_page_items {
     position: relative;
@@ -213,3 +236,83 @@ height: 100vh;
   width: 100%;
   height: 100vh;
 }
+
+
+/* ---------------Media queries------------------ */
+
+@media (min-width: 500px) {
+    nav {
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    .navigation_icons {
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #BDBDBD;
+    }
+    
+    .navigation_search ul li {
+        list-style: none;
+    }
+    
+    
+    .navigation_search ul {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        font-size: 20px;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #BDBDBD;
+    }
+    
+
+}
+
+@media (min-width: 700px) {
+
+    nav {
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    .navigation_icons {
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #BDBDBD;
+    }
+
+    #logo_to_use {
+        width: 122px;
+        height: 44px;
+       
+    }
+
+    .big_logo {
+        background-image: url("/images_for_product_page/big_logo.svg");
+        width: 50%;
+        height: 50%;
+    }
+    
+    .navigation_search ul li {
+        list-style: none;
+    }
+    
+    
+    
+
+    .navigation_search ul {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        font-size: 20px;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #BDBDBD;
+        width: 100%;
+    }
+}
+
