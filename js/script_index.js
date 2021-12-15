@@ -50,12 +50,18 @@
 
 
 var logo_to_use = document.querySelector("#logo_to_use");
+var li_v1 = document.querySelector("#li_v1");
+var li_v2 = document.querySelector("#li_v2");
 
 
 const mediaQuery2 = window.matchMedia("(min-width: 700px)");
 if (mediaQuery2.matches) {
   console.log("query2");
   logo_to_use.classList.add("big_logo");
+  li_v1.classList.remove("hidden");
+  li_v2.classList.remove("hidden");
+
+
 
 //   document.querySelector(".asidecontainer").addEventListener("click", addWidth);
 //   document.querySelector(".secondhalf").addEventListener("click", addWidth);
