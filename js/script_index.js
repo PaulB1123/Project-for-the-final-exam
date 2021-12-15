@@ -40,12 +40,12 @@ function next() {
     move();
 }
 
-$.fn.hiSlide = function(options) {
-    $(this).each(function(index, ele) {
-        slide(ele,options);
-    });
+// $.fn.hiSlide = function(options) {
+//     $(this).each(function(index, ele) {
+//         slide(ele,options);
+//     });
 
-    return this;
+//     return this;
 }(jQuery);
 
 
