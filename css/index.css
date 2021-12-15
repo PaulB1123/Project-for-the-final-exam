@@ -9,6 +9,11 @@
   }
   
 
+  @font-face {
+    font-family: "Freight_Big_Bold";
+    src: url("../fonts/proxima_nova/Freight\ Big\ Bold.otf");
+  }
+
   @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,500&display=swap');
 
 
