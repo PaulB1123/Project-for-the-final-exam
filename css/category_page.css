@@ -56,9 +56,45 @@ padding: 0rem;
     
 }  
 
+.sort-by{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+align-items: center;
+border: 1px solid black;
+font-family:  'Montserrat', sans-serif;
+letter-spacing: 3px;
+font-size: 13px;
+}
+
+#real-sort-by {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 0rem;
+}
+
+.Arrow {
+    margin-left: 1rem;
+}
 
 .filter_for_category_page {
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
 }  
+
+.the_box {
+    display: flex;
+    flex-direction: row;
+}
+
+.the_box img {
+    margin: 1rem;
+}
