@@ -1,0 +1,39 @@
+
+.img_product_page  {
+    width: 90%;
+}
+
+.main_product_page_items {
+    position: relative;
+    margin: 0rem;
+}
+
+.main_product_page_items img {
+    margin-left: 5%;
+}
+
+
+
+.img_product_page_sign_v1 {
+    position: absolute;
+    top: 3%;
+    left: 76%;
+}
+
+
+.img_product_page_sign_v2 {
+    position: absolute;
+    left: 80%;
+    top: 15%;
+}
+
+
+.product_page_arrows {
+    position: absolute;
+    top: 50%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+width: 90%;
+margin-left: 1rem;
+cursor: pointer; }
