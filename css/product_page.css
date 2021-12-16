@@ -3,7 +3,7 @@
 #logo_to_use {
     width: 30px;
     height: 30px;
-   
+
 }
 
 .small_logo {
@@ -17,7 +17,11 @@
     display: none;
 }
 
-.img_product_page  {
+.unhidden {
+    display: inline;
+}
+
+.img_product_page {
     width: 90%;
 }
 
@@ -29,26 +33,26 @@
 .main_product_page_items {
     position: relative;
     margin: 0rem;
-    
+
 }
 
-.main_product_page_items img {
-    margin-left: 5%;
-}
+
 
 
 
 .img_product_page_sign_v1 {
-    position: absolute;
+    position: inline-block;
     top: 3%;
     left: 76%;
+    width: 30px;
+    height: 50px;
     cursor: pointer;
     transition: all 0.7s;
 }
 
 
 .img_product_page_sign_v2 {
-    position: absolute;
+    position: inline-block;
     left: 80%;
     top: 15%;
     cursor: pointer;
@@ -58,14 +62,15 @@
 
 .product_page_arrows {
     position: absolute;
-    top: 50%;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-width: 90%;
-margin-left: 1rem;
-cursor: pointer;
-transition: all 0.7s; }
+    top: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: all 0.7s;
+}
 
 
 /* HERO IMAGE FOR PRODUCT PAGE START*/
@@ -73,12 +78,12 @@ transition: all 0.7s; }
 /* CONTING START*/
 
 .conting {
-display: flex;
-flex-direction: row;
-width: 90%;
-justify-content: center;
-margin-top: 2rem;
-margin-left: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
 }
 
 .numbers {
@@ -105,123 +110,123 @@ margin-left: 1.5rem;
 @import url("https://use.typekit.net/qxm2zyz.css");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 .productNameAndInfo {
     margin-top: 3rem;
-width: 100%;
-height: 100vh;
+    width: 100%;
+    height: 100vh;
 }
 
 
 /*NAME AND PRICE*/
 .productNameAndPrice {
-  position: relative;
-  text-align: center;
-  padding-bottom: 3rem;
-  width: 100%;
+    position: relative;
+    text-align: center;
+    padding-bottom: 3rem;
+    width: 100%;
 }
 
 .productNameAndPrice h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  line-height: 20px;
-  padding-top: 1rem;
-  border-bottom: 1px solid #afafaf;
-  padding-bottom: 1rem;
-  margin: 0 auto;
-  width: 50%;
-  font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    line-height: 20px;
+    padding-top: 1rem;
+    border-bottom: 1px solid #afafaf;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 50%;
+    font-weight: 300;
 }
 
 .productNameAndPrice h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  line-height: 20px;
-  padding-top: 0.5rem;
-  font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 0.5rem;
+    font-weight: 300;
 }
 
 .productNameAndPrice {
-  position: relative;
-  text-align: center;
-  padding-bottom: 3rem;
-  width: 100%;
+    position: relative;
+    text-align: center;
+    padding-bottom: 3rem;
+    width: 100%;
 }
 
 /*SHOP BAG*/
 .addShopBag {
-  text-align: center;
-  padding-bottom: 3rem;
+    text-align: center;
+    padding-bottom: 3rem;
 }
 
 .addShopBag button {
-  text-align: center;
-  padding: 0.7rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  background-color: black;
-  color: white;
-  border-radius: 0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 25px;
-  letter-spacing: 2px;
-  border: none;
+    text-align: center;
+    padding: 0.7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    border: none;
 }
 
 .availableText h3 {
-  font-family: "Bodoni Moda", serif;
-  font-size: 15px;
-  line-height: 20px;
-  padding-bottom: 0.5rem;
-  /* padding-left: 25%; */
-  text-align: center;
+    font-family: "Bodoni Moda", serif;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 0.5rem;
+    /* padding-left: 25%; */
+    text-align: center;
 }
 
 .availableText p {
-  font-family: "proxima-nova", sans-serif;
-  font-size: 11px;
-  line-height: 20px;
-  padding-bottom: 0.5rem;
-  margin-left: 15%;
-  padding-right: 15%;
-  width: 85%;
-  text-align: center;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    padding-bottom: 0.5rem;
+    margin-left: 15%;
+    padding-right: 15%;
+    width: 85%;
+    text-align: center;
 }
 
 .availableText {
-  padding-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .productInfoDrop {
-  font-family: freight-big-pro, serif;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 14%;
-  display: flex;
-  flex-direction: column;
+    font-family: freight-big-pro, serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 14%;
+    display: flex;
+    flex-direction: column;
 }
 
 .productDetails {
-  display: flex;
-  border-bottom: 1px solid #afafaf;
-  padding-bottom: 0.3rem;
-  margin: 0 auto;
-  width: 100%;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 75%;
-  margin-bottom: 2.5rem;
+    display: flex;
+    border-bottom: 1px solid #afafaf;
+    padding-bottom: 0.3rem;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 2.5rem;
 }
 
 .imgArrow {
-  align-items: flex-start;
+    align-items: flex-start;
 }
 
 
@@ -233,8 +238,8 @@ height: 100vh;
 /*
 /* Whole block*/
 .productNameAndInfo {
-  width: 100%;
-  height: 100vh;
+    width: 100%;
+    height: 100vh;
 }
 
 
@@ -253,21 +258,21 @@ height: 100vh;
         padding-bottom: 1rem;
         border-bottom: 1px solid #BDBDBD;
     }
-    
+
     .navigation_search ul li {
         list-style: none;
     }
-    
-    
+
+
     .navigation_search ul {
         display: flex;
         flex-direction: row;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         font-size: 20px;
         padding-bottom: 1.5rem;
         border-bottom: 1px solid #BDBDBD;
     }
-    
+
 
 }
 
@@ -289,7 +294,7 @@ height: 100vh;
     #logo_to_use {
         width: 122px;
         height: 44px;
-       
+
     }
 
     .big_logo {
@@ -297,17 +302,17 @@ height: 100vh;
         width: 50%;
         height: 50%;
     }
-    
+
     .navigation_search ul li {
         list-style: none;
     }
-    
-    
-    
+
+
+
     .navigation_search ul {
         display: flex;
         flex-direction: row;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         font-size: 20px;
         padding-bottom: 1.5rem;
         border-bottom: 1px solid #BDBDBD;
@@ -316,15 +321,51 @@ height: 100vh;
 
     .the_entire_prodcut_page {
         display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(32vw, 1fr));
-    grid-column: 1/-1;
-    margin: 6vw 0vw 25vw 3.1vw;
-    row-gap: 5em;
-    column-gap: 0em;
-        
+        grid-template-columns: repeat(auto-fit, minmax(32vw, 1fr));
+        grid-column: 1/-1;
+        margin: 6vw 0vw 25vw 3.1vw;
+        row-gap: 5em;
+        column-gap: 0em;
+
+    }
+
+    .recently_viewed {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product_page_arrows {
+        position: absolute;
+        top: 30vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 1rem;
+        cursor: pointer;
+        transition: all 0.7s;
+    }
+
+    .img_product_page_sign_v1 {
+        position: inline-block;
+        /* top: 0%;
+        left: 79%; */
+        cursor: pointer;
+        transition: all 0.7s;
+    }
+
+
+    .img_product_page_sign_v2 {
+        position: inline-block;
+        /* left: 82.5%;
+        top: 6%; */
+        cursor: pointer;
+        transition: all 0.7s;
     }
 
 
 
 }
-

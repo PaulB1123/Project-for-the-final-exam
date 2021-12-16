@@ -7,30 +7,38 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/category_page.css"/>
+    <link rel="stylesheet" href="css/product_page.css"/>
 </head>
 <body>
- <header>
-<nav>
-    <div class="navigation_icons">
+    <header>
+        <nav>
+          <div class="navigation_icons">
     
-    <div class="burger menu"><img id="burger_menu" src="/images_for_the_navigation_bar/burger_menu.svg" alt="burger menu"></div>
-    <a href="index.html"><img id="small_logo" src="/images_for_the_navigation_bar/small_logo.svg" alt="small logo"></a>
-    <div class="shopping_bag"><img id="shopping_bag" src="/images_for_the_navigation_bar/card_shop.svg" alt="shopping bag"></div>
-
-</div>
-
-
-<div class="navigation_search">
-    <ul>
-        <li>About</li>
-        <li>Shop</li>
-        <li>Contact</li>
-    </ul>
-</div>
-
-
-</nav>
-</header>
+            <div class="burger menu"><img id="burger_menu" src="/images_for_the_navigation_bar/burger_menu.svg"
+                alt="burger menu"></div>
+            <a href="index.html">
+              <div class="small_logo" id="logo_to_use"></div>
+            </a>
+            <div class="shopping_bag"><img id="shopping_bag" src="/images_for_the_navigation_bar/card_shop.svg"
+                alt="shopping bag"></div>
+    
+          </div>
+    
+    
+          <div class="navigation_search">
+            <ul>
+              <li class="hidden" id="li_v1">Collection</li>
+              <li>About</li>
+              <li>Shop</li>
+              <li>Contact</li>
+              <li class="hidden" id="li_v2">Collection</li>
+            </ul>
+          </div>
+    
+    
+        </nav>
+      </header>
+    
 
 <main>
 
@@ -83,7 +91,7 @@
 
 
 </main>
-
+<script src="js/script_index.js"></script>
 </body>
 
 </html>

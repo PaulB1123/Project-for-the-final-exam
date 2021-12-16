@@ -52,12 +52,15 @@
 var logo_to_use = document.querySelector("#logo_to_use");
 var li_v1 = document.querySelector("#li_v1");
 var li_v2 = document.querySelector("#li_v2");
+var burger_menu = document.querySelector("#burger_menu");
+
 
 
 const mediaQuery2 = window.matchMedia("(min-width: 700px)");
 if (mediaQuery2.matches) {
   console.log("query2");
   logo_to_use.classList.add("big_logo");
+  burger_menu.classList.add("hidden");
   li_v1.classList.remove("hidden");
   li_v2.classList.remove("hidden");
 
@@ -71,6 +74,7 @@ const mediaQuery = window.matchMedia("(max-width: 700px)");
 if (mediaQuery.matches) {
     console.log("query1");
   logo_to_use.classList.add("small_logo");
+  burger_menu.classList.add("unhidden");
 //   document
 //     .querySelector(".burgericon")
 //     .addEventListener("click", changeDisplay);
