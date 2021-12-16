@@ -258,6 +258,16 @@ padding: 0rem;
     letter-spacing: 0.3rem;
     font-weight: lighter;
   }
+
+  .footerSoMe {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerSoMe img {
+    margin: 1.8rem;
+  }
+  
   
 
 /* this is responsivness for the smaller screens ends */
