@@ -113,3 +113,128 @@
   width: 100%;
   height: 100%;
 }
+/* DROP MENU*/
+.card {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #f2f5f7;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+}
+
+.card .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerBold {
+  margin: 3rem;
+}
+
+.toggle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.card .active {
+  height: 300px;
+}
+.toggle img {
+  transition: ease-in-out 0.5s;
+  height: 900px;
+}
+
+.card.active.toggle img {
+  transform: rotate(-180deg);
+}
+
+.navigation {
+  position: relative;
+  top: 25px;
+  border-top: 1px solid black;
+}
+
+/*FOOTER DESKTOP*/
+
+.footerBox {
+  height: 313px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+
+.registrant {
+  margin-left: 3rem;
+  margin-top: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+  margin-bottom: 1.5rem;
+}
+
+.registerGroup {
+  display: flex;
+}
+
+.registerGroup1 {
+  display: flex;
+}
+
+.footerOne {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  width: 40%;
+}
+
+.lookUp {
+  padding-right: 7rem;
+  font-family: "Bodoni MT", serif;
+  font-size: 17px;
+  line-height: 20px;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.registerGroup p {
+  padding-right: 7rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  padding-bottom: 0.5rem;
+  letter-spacing: 5%;
+}
+
+.registerGroup1 p {
+  padding-right: 9rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  padding-bottom: 0.5rem;
+  letter-spacing: 5%;
+}
+.footerTwo {
+  display: flex;
+  align-items: center;
+}
+
+.footerTwo h2 {
+  padding-left: 4rem;
+  font-family: "Bodoni MT", serif;
+  font-size: 25px;
+  line-height: 25px;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.3rem;
+  font-weight: lighter;
+}
