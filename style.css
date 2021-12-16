@@ -165,9 +165,7 @@
   border-top: 1px solid black;
 }
 
-/*FOOTER DESKTOP*/
-
-.footerBox {
+FOOTER DESKTOP .footerBox {
   height: 313px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
