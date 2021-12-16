@@ -429,10 +429,10 @@ padding: 0rem;
         width: 30%;
     }
 
-    .to_place_it_in_the_middle_category_page {
+    /* .to_place_it_in_the_middle_category_page {
         display: flex;
         flex-direction: row;
-    }
+    } */
 
     .img_category_page {
         width: 50%;
