@@ -238,3 +238,14 @@
   letter-spacing: 0.3rem;
   font-weight: lighter;
 }
+
+/* SoMe Footer*/
+
+.footerSoMe {
+  display: flex;
+  justify-content: center;
+}
+
+.footerSoMe img {
+  margin: 1.8rem;
+}
