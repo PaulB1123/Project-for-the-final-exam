@@ -53,6 +53,7 @@ var logo_to_use = document.querySelector("#logo_to_use");
 var li_v1 = document.querySelector("#li_v1");
 var li_v2 = document.querySelector("#li_v2");
 var burger_menu = document.querySelector("#burger_menu");
+var sorting_obtion = document.querySelector("#sorting_obtion");
 
 
 
@@ -61,6 +62,7 @@ if (mediaQuery2.matches) {
   console.log("query2");
   logo_to_use.classList.add("big_logo");
   burger_menu.classList.add("hidden");
+  sorting_obtion.classList.remove("hidden");
   li_v1.classList.remove("hidden");
   li_v2.classList.remove("hidden");
 
@@ -75,6 +77,7 @@ if (mediaQuery.matches) {
     console.log("query1");
   logo_to_use.classList.add("small_logo");
   burger_menu.classList.add("unhidden");
+  sorting_obtion.classList.add("hidden");
 //   document
 //     .querySelector(".burgericon")
 //     .addEventListener("click", changeDisplay);
