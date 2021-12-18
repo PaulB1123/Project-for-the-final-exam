@@ -11,7 +11,7 @@ function start() {
 function loadProductType(productType) {
     //here starts the functions for fetching the data
     // const url = "https://tasjap-117c.restdb.io/rest/ceramics?max=56";
-    const url = `https://tasjap-117c.restdb.io/rest/ceramics?q={"type" : {"$in" : ["${productType}"]}}`;
+    const url = `https://tasjap-117c.restdb.io/rest/ceramics?q={"type" : {"$in" : ["${productType}"]}}&max=3`;
 console.log(url);
     const options = {
         headers: {
@@ -51,17 +51,16 @@ cups.forEach((cup) => {
   //here I clone it
   const clone = template.cloneNode(true);
   //here I add all the data from database to the existing tags from the template
-//   clone.querySelector("h2").textContent = paint.period;
-//   clone.querySelector("img").setAttribute("src", paint.photo);
-//   clone
-//     .querySelector("img")
-//     .setAttribute("alt", paint.title + ", by " + paint.artist);
+  clone.querySelector("h4").textContent = cup.name;
+ clone.querySelector("h5").textContent = cup.price;
+ clone.querySelector("img").setAttribute("src", cup.imgurl);
+//   clone.querySelector("img").setAttribute("src", cup.imgurl).setAttribute("alt", cup.name);
 //   //here I add the id of the band to have it on the http so it can be selected as a single element
-//   clone.querySelector(
-//     ".templates a"
-//   ).href = `productList.html?period=${paint.period}`;
-  //here I place all my clones in the main
-  //here I show the clones on main
+clone.querySelector("a").href = `category_page.html?type=${cup.type}`
+// clone.querySelector("button").href = `category_page.html?type=${cup.type}`
+//   clone.querySelector("a").href = `category_page.html?list=${cup.type}`;
+//   here I place all my clones in the main
+//   here I show the clones on main
   mainEl.appendChild(clone);
 
   // bl bl

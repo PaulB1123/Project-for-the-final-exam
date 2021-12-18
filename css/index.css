@@ -293,10 +293,10 @@ border-bottom: 0.6px solid  #BDBDBD
 
 /* MOST POPULAR STARTS */
 
-.discover {
+/* .discover {
     width: 100%;
     height: 100vh;
-}
+} */
 
 
 .discover h2 {
@@ -331,33 +331,61 @@ border-bottom: 0.6px solid  #BDBDBD
     letter-spacing: 3px;
 }
 
-.images_for_discover {
+/* .template {
     display: flex;
     flex-direction: row;
+    width: 100%;
     
 }
 
-.info_for_product  img {
-    width: 92%;
+.template img {
+    width: 30%;
     margin: 0.4rem;
     margin-top: 5rem;
 }
 
 
-.info_for_product h4 {
+.template h4 {
 color: #ABABAB;
 font-size: 18px;
 margin: 0rem;
 padding: 0rem;
 }
 
-.info_for_product h5 {
+.template h5 {
     color: #ABABAB;
     margin: 0rem;
     font-size: 12px;
   padding: 0rem;
-    }
+    } */
 
+    .images_for_discover {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .info_for_product  img {
+        width: 92%;
+        margin: 0.4rem;
+        margin-top: 5rem;
+    }
+    
+    
+    .info_for_product h4 {
+    color: #ABABAB;
+    font-size: 18px;
+    margin: 0rem;
+    padding: 0rem;
+    }
+    
+    .info_for_product h5 {
+        color: #ABABAB;
+        margin: 0rem;
+        font-size: 12px;
+      padding: 0rem;
+        }
+    
 
 .button_for_discover {
 display: flex;
@@ -544,3 +572,33 @@ border-bottom: 0.6px solid  #BDBDBD;
     font-family: 'Montserrat', serif;
 }
 /* FIND ME STOP */
+
+/* for the new index page */
+
+.template_img {
+    width: 90%;
+    margin: 0.4rem;
+    margin-top: 0rem;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0.4rem;
+    margin-top: 5rem;
+}
+
+.discover ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    justify-content: space-evenly;
+    margin: 0rem;
+    padding: 0rem;
+   }
+   
+   /* for the new index page  end*/
