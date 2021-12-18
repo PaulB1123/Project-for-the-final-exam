@@ -6,12 +6,55 @@
 
 html {
   height: 100%;
-  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  text-decoration: none;
 }
 
+.filtersAndSortBy {
+  display: flex;
+  height: 37px;
+  width: 240px;
+  border: 2px solid #cac9c9;
+}
+
+.filterBox {
+  display: flex;
+  width: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterBox p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 20;
+  letter-spacing: 14%;
+}
+
+.sortBytext p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 20;
+  letter-spacing: 14%;
+}
+
+.sortByBox {
+  border-left: 2px solid #cac9c9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+
+.imgArrow {
+  padding-left: 0.8rem;
+  padding-bottom: 0.4rem;
+}
+.sortByBox img {
+  height: 5px;
+  width: 9px;
+}
+/*
 footer {
   display: flex;
   flex-direction: column;
@@ -104,3 +147,5 @@ footer {
   padding-left: 1rem;
   padding-top: 2rem;
 }
+
+*/
