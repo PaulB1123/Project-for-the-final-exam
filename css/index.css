@@ -576,9 +576,8 @@ border-bottom: 0.6px solid  #BDBDBD;
 /* for the new index page */
 
 .template_img {
-    width: 90%;
-    margin: 0.4rem;
-    margin-top: 0rem;
+    width: 70%;
+    
 }
 
 
@@ -588,6 +587,16 @@ main {
     width: 100%;
     margin: 0.4rem;
     margin-top: 5rem;
+    justify-content: space-evenly;
+}
+
+
+.contains_type_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
 }
 
 .discover ul {
@@ -599,6 +608,7 @@ main {
     justify-content: space-evenly;
     margin: 0rem;
     padding: 0rem;
+    width: 50%;
    }
    
    /* for the new index page  end*/
