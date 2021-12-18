@@ -10,11 +10,13 @@ html {
   padding: 0;
 }
 
+/*Upper two boxes*/
 .filtersAndSortBy {
   display: flex;
   height: 37px;
   width: 240px;
   border: 2px solid #cac9c9;
+  margin-bottom: 3rem;
 }
 
 .filterBox {
@@ -27,14 +29,12 @@ html {
 .filterBox p {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  line-height: 20;
   letter-spacing: 14%;
 }
 
 .sortBytext p {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  line-height: 20;
   letter-spacing: 14%;
 }
 
@@ -54,6 +54,34 @@ html {
   height: 5px;
   width: 9px;
 }
+
+/*Down menu*/
+
+.filterBox2 {
+  display: flex;
+  flex-direction: column;
+  width: 301px;
+}
+
+.highlightedBox {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #afafaf;
+}
+
+.highlightedText,
+.ascedingText,
+.descendingText,
+.oldestText,
+.newestText,
+.bestsellersText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 14%;
+}
+
 /*
 footer {
   display: flex;
