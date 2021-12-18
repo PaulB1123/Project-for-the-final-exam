@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f5f7;
+}
+
+.backToTopBox {
+  border-top: 2px solid #cac9c9;
+  height: 41px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 20;
+  letter-spacing: 5%;
+}
+
+.backToTopBox img {
+  padding-right: 0.4rem;
+}
+
+.footer_box1 {
+  height: 70px;
+  width: 100%;
+  border-top: 2px solid #cac9c9;
+  font-family: "Bodoni Moda", serif;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 0rem;
+  font-size: 25px;
+  letter-spacing: 30%;
+}
+
+.footer_box1 h2 {
+  margin: 0.1px;
+  padding-top: 0.4rem;
+}
+
+.footer_box2 {
+  border-top: 2px solid #cac9c9;
+  font-family: "Bodoni Moda", serif;
+  text-align: center;
+  height: 70px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 30%;
+}
+.footer_box2 h2 {
+  margin: 0.1px;
+  padding-top: 0.4rem;
+}
+
+.footer_box3 {
+  border-top: 2px solid #cac9c9;
+  font-family: "Bodoni Moda", serif;
+  text-align: center;
+  height: 70px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 30%;
+}
+
+.footer_box3 h2 {
+  margin: 0.1px;
+  padding-top: 0.4rem;
+}
+
+.footer_box4 {
+  border-top: 2px solid #cac9c9;
+  font-family: "Bodoni Moda", serif;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 30%;
+}
+
+.footer_box4 h2 {
+  margin: 0.1px;
+}
+.SoMeLogos {
+  background-color: #f2f5f7;
+}
+
+.SoMeLogos img {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
