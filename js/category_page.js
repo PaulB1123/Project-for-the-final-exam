@@ -29,6 +29,32 @@ fetch(url, options)
     console.error("An error occured:", e.message);
   });
 
+// clone the template that we have for every period
+function handleData(period) {
+    const mainEl = document.querySelector("main");
+    //here I grab each on of the elements from the array
+    period.forEach((item) => {
+      //here I console log it to make sure everything is okay
+      console.log(item);
+      //here I take the template that I already have
+      const template = document.querySelector(".items_from_category_page").content;
+      //here I clone it
+      const copy = template.cloneNode(true);
+      //here I add all the data from database to the existing tags from the template
+  
+      copy.querySelector("h4").textContent = item.name;
+      copy.querySelector("h5").textContent = item.price;
+      copy.querySelector("img").setAttribute("src", item.imgurl);
+      //here I add the id of the band to have it on the http so it can be selected as a single element
+      
+    //   clone.querySelector("a").href = `category_page.html?type=${cup.type}`
+    copy.querySelector("a").setAttribute("href", "product_page.html?id=" + item._id);
+      //here I place all my clones in the main
+      //here I show the clones on main
+      mainEl.appendChild(copy);
+    });
+  }
+
 // function start() {
 //     console.log("start");
 //     document.querySelector(".filter").addEventListener("click", openFilters);
