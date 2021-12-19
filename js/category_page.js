@@ -23,21 +23,22 @@ fetch(url, options)
   })
   .then((data) => {
     console.log(data);
-    // handleData(data);
+    handleData(data);
   })
   .catch((e) => {
     console.error("An error occured:", e.message);
   });
 
 // clone the template that we have for every period
-function handleData(period) {
+function handleData(items) {
     const mainEl = document.querySelector("main");
+    mainEl.innerHTML="";
     //here I grab each on of the elements from the array
-    period.forEach((item) => {
+    items.forEach((item) => {
       //here I console log it to make sure everything is okay
       console.log(item);
       //here I take the template that I already have
-      const template = document.querySelector(".items_from_category_page").content;
+      const template = document.querySelector("template").content;
       //here I clone it
       const copy = template.cloneNode(true);
       //here I add all the data from database to the existing tags from the template
