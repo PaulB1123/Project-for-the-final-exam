@@ -33,8 +33,8 @@ if (mediaQuery2.matches) {
   logo_to_use.classList.add("big_logo");
   burger_menu.classList.add("hidden");
   // sorting_obtion.classList.remove("hidden");
-  // li_v1.classList.remove("hidden");
-  // li_v2.classList.remove("hidden");
+  li_v1.classList.remove("hidden");
+  li_v2.classList.remove("hidden");
 }
 
 

@@ -71,13 +71,13 @@ body {
     overflow-x: hidden;
 }
 
-.navigation_icons {
+/* .navigation_icons {
     display: flex;
     justify-content: space-between;
     margin: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #BDBDBD;
-}
+} */
 
 .navigation_search ul li {
     list-style: none;
@@ -643,6 +643,26 @@ main {
     width: 50%;
    }
    
+
+   .navigation_icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.shopping_bag {
+    margin-right: 1.5rem;
+}
+
+#burger_menu{
+    margin-left: 1.5rem;
+}
+.wrapping_naviagtion{
+    font-family: "Freight_Big_Bold";
+}
    /* for the new index page  end*/
 
    @media (min-width: 700px) {
@@ -688,9 +708,68 @@ main {
         height: 553px;
     }
 
+/* this is for the navigation bar, it is responsive */
+
+    .navigation_search ul {
+        width: 65%;
+        margin-top: 1px;
+        border-bottom: 0px solid #BDBDBD;
+    }
+
+    .wrapping_naviagtion{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #BDBDBD;
+        font-family: "Freight_Big_Bold";
+    }
+
     #logo_to_use {
         width: 122px;
         height: 44px;
 
+    }
+
+    .navigation_search ul {
+        padding-bottom: 0rem;
+    }
+
+    .navigation_icons {
+        border-bottom: 0px solid #BDBDBD;
+    }
+
+    .wrapping_naviagtion ul{
+        padding: 0rem;
+        padding-top: 1rem;
+        border-top: 1px solid #BDBDBD; 
+    }
+
+    .wrapping_naviagtion ul li{
+        padding-right: 1.5rem;
+        border-right: 1px solid #BDBDBD; 
+    }
+
+
+    #li_v2 {
+        border-right: 0px solid #BDBDBD;
+    }
+/* this is for the navigation bar,here it ends  */
+
+    @media (min-width: 1300px) {
+        .navigation_search ul {
+            width: 45%;
+            margin-top: 1px;
+            border-bottom: 0px solid #BDBDBD;
+        }
+    }
+
+
+    @media (min-width: 1800px) {
+        .navigation_search ul {
+            width: 28%;
+            margin-top: 1px;
+            border-bottom: 0px solid #BDBDBD;
+        }
     }
    }
