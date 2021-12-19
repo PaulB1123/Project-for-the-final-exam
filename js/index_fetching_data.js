@@ -58,6 +58,7 @@ cups.forEach((cup) => {
 //   //here I add the id of the band to have it on the http so it can be selected as a single element
 
 clone.querySelector("a").href = `product_page.html?id=` + cup._id;
+clone.querySelector(".button_for_discover a").href = `category_page.html?type=${cup.type}`;
 // clone.querySelector("a").href = `category_page.html?type=${cup.type}`;
 // clone.querySelector("button").href = `category_page.html?type=${cup.type}`
 //   clone.querySelector("a").href = `category_page.html?list=${cup.type}`;
