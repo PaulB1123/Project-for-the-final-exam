@@ -24,7 +24,7 @@
     box-sizing: border-box;
 }
 
-#logo_to_use {
+/* #logo_to_use {
     width: 30px;
     height: 30px;
 
@@ -33,19 +33,18 @@
 .logo {
     background-image: url("/images_for_the_navigation_bar/small_logo.svg");
     display: block;
-    width: 100%;
-    height: 100%;
+    object-fit: cover;
 }
 
 @media (min-width: 700px) {
 
     .logo {
         background-image: url("/images_for_product_page/big_logo.svg");
-        width: 50%;
-        height: 50%;
+        object-fit: cover;
     }
+    
 
-}
+} */
 
 .hidden {
     display: none;
@@ -107,6 +106,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 /* this is the alternative for slider ends */
@@ -1412,8 +1412,12 @@ FOOTER DESKTOP .footerBox {
     #burger_menu {
         display: none;
     }
-
-
+    #workshop_mobile {
+        display: none;
+    }
+    #logo_to_use{
+        display: none; 
+    }
     }
  
 @media (max-width: 700px) {
@@ -1423,6 +1427,13 @@ FOOTER DESKTOP .footerBox {
     #li_v2 {
         display: none;
     }
+    #workshop_desktop {
+        display: none;
 
+    }
+
+    #logo_to_use_big {
+        display: none; 
+    }
     }
 

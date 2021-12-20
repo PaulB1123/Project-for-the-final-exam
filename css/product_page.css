@@ -541,7 +541,7 @@ main {
     }
 
     .big_logo {
-        background-image: url("/images_for_product_page/big_logo.svg");
+        background-image: url("images_for_product_page/big_logo.svg");
         width: 50%;
         height: 50%;
     }
