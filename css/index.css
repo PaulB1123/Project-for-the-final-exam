@@ -97,6 +97,17 @@ body {
 
 /* AUTO SLIDER  */
 
+
+/* this is the alternative for slider start */
+
+.workshop_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* this is the alternative for slider ends */
+
 #hi_slide_main {
     width: 100%;
     height: 100%;
@@ -1325,4 +1336,14 @@ FOOTER DESKTOP .footerBox {
         width: 50%;
     }
 
+}
+
+.small_image{
+    background-image: url("/images_for_the_slide_bar/first.png");
+    width: 100%;
+    height: 100%;
+}
+
+.big_image{
+    background-image: url("/images_for_the_slide_bar/workshop_for_desktop.jpg");
 }
