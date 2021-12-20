@@ -436,7 +436,7 @@ padding: 0rem;
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 3rem;
+    margin-top: 0.5rem;
     height: 120px;
     padding-bottom: 4rem;
     border-bottom: 0.6px solid #BDBDBD;
@@ -500,9 +500,6 @@ border-bottom: 0.6px solid  #BDBDBD;
     border-bottom: 0.6px solid #BDBDBD;
 }
 
-.logos_for_retailing {
-    width: 30%;
-}
 
 .retailers h2 {
     text-align: center;
@@ -518,14 +515,19 @@ border-bottom: 0.6px solid  #BDBDBD;
 
 .logos_box {
     margin: 1rem;
-    width: 80px;
-    height: 80px;
+    width: 100%;
+    height: 100%;
     object-fit:fill;
+    
     /* background-color: black; */
 }
 
+.logos_box_img {
+    width: 80%;
 
-.logos_for_retailing {
+}
+
+.logos_for_retailing_container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -534,6 +536,13 @@ border-bottom: 0.6px solid  #BDBDBD;
 
     padding-bottom: 4rem;
     border-bottom: 0.6px solid #BDBDBD;
+}
+
+.logos_for_retailing{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo_container {
@@ -546,7 +555,7 @@ border-bottom: 0.6px solid  #BDBDBD;
 
 .instagram {
     width: 100%;
-    height: 50vh;
+    height: 100%;
 }
 
 .instagram h2 {
@@ -557,10 +566,12 @@ border-bottom: 0.6px solid  #BDBDBD;
     margin-bottom: 2rem;
 }
 
+
+
 .logos_boxv2 {
-    margin: 1rem;
-    width: 80px;
-    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img_for_instagram {
@@ -572,12 +583,27 @@ border-bottom: 0.6px solid  #BDBDBD;
 .images_for_instagram_grid {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
 }
 
 .images_for_instagram_grid img {
-    width: 92%;
+    width: 90%;
+    object-fit: cover;
     margin: 0.4rem;
     margin-top: 1rem;
+}
+
+.images_for_insta_max {
+    width: 90%;
+    height: 60%;
 }
 
 /* INSTAGRAM STOP */
@@ -586,7 +612,8 @@ border-bottom: 0.6px solid  #BDBDBD;
 
 .find_me {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    border-bottom: 0.6px solid #BDBDBD;
 }
 
 .find_me h2 {
@@ -882,6 +909,11 @@ h4 {
         margin-top: 5rem;
         margin-bottom: 4rem;
     }
+
+
+    .logos_for_retailing{
+        width: 85%;
+    }
 }
 
 /* this is for the navigation bar,here it ends  */
@@ -924,6 +956,10 @@ h4 {
         font-size: 21px;
     }
 
+
+    .logos_for_retailing{
+        width: 75%;
+    }
 }
 
 @media (min-width: 1800px) {
@@ -936,6 +972,10 @@ h4 {
     .details {
         /* margin-left:1rem ; */
         font-size: 23px;
+    }
+
+    .logos_for_retailing{
+        width: 50%;
     }
 
 }
