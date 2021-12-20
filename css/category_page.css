@@ -1381,12 +1381,12 @@ main {
     }
 
     .items_from_category_page h4 {
-        font-size: 35px;
+        font-size: 28px;
         margin-left: 1rem;
     }
 
     .items_from_category_page h5 {
-        font-size: 25px;
+        font-size: 22px;
         margin-left: 1rem;
     }
 }
@@ -1396,7 +1396,7 @@ main {
         width: 60%;
         height: 100%;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(19vw, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(21vw, 1fr));
         grid-column: 1/-1;
         margin: 0vw 4vw 20vw 8vw;
         row-gap: 3em;
