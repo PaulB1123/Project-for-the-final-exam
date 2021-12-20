@@ -70,6 +70,7 @@ function handleData(cups) {
         // bl bl
     });
     document.querySelector(".button_for_discover").href = `category_page.html?type=${productType}`;
+    document.querySelector(".button_for_discover").textContent =  "See More " + productType;
 }
 
 
