@@ -30,19 +30,22 @@
 
 }
 
-.small_logo {
-    background-image: url("/images_for_the_navigation_bar/small_logo.svg");
+.logo {
+    background-image: url("images_for_the_navigation_bar/small_logo.svg");
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.big_logo {
-    background-image: url("/images_for_product_page/big_logo.svg");
-    width: 50%;
-    height: 50%;
-}
+@media (min-width: 700px) {
 
+    .logo {
+        background-image: url("images_for_product_page/big_logo.svg");
+        width: 50%;
+        height: 50%;
+    }
+
+}
 
 .hidden {
     display: none;
@@ -112,7 +115,7 @@ body {
     width: 100%;
     height: 100%;
     border-bottom: 0.6px solid #BDBDBD;
-}  
+}
 
 .hi-slide {
     position: relative;
@@ -363,11 +366,17 @@ article h3 {
     padding: 0rem;
 }
 
-.discover ul li:hover {
-    border: 2px solid black;
+.discover ul li {
+    border: 2px solid transparent;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
 }
+
+.discover ul li:hover {
+    border: 2px solid black;
+}
+
+
 
 .discover ul a {
     text-decoration: none;
@@ -529,8 +538,8 @@ border-bottom: 0.6px solid  #BDBDBD;
     margin: 1rem;
     width: 100%;
     height: 100%;
-    object-fit:fill;
-    
+    object-fit: fill;
+
     /* background-color: black; */
 }
 
@@ -539,7 +548,7 @@ border-bottom: 0.6px solid  #BDBDBD;
 
 }
 
-.logos_for_retailing_container{
+.logos_for_retailing_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -550,7 +559,7 @@ border-bottom: 0.6px solid  #BDBDBD;
     border-bottom: 0.6px solid #BDBDBD;
 }
 
-.logos_for_retailing{
+.logos_for_retailing {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -599,7 +608,7 @@ border-bottom: 0.6px solid  #BDBDBD;
     align-items: center;
 }
 
-.follow_button{
+.follow_button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -651,9 +660,9 @@ border-bottom: 0.6px solid  #BDBDBD;
 
 .p_container {
     display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 30px;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
 }
 
 .address p {
@@ -677,7 +686,7 @@ border-bottom: 0.6px solid  #BDBDBD;
 
 
 .opening_hours p {
-margin: 0.5rem;
+    margin: 0.5rem;
     font-family: 'Montserrat', serif;
 }
 
@@ -692,7 +701,7 @@ margin: 0.5rem;
 }
 
 
-main {
+main section {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -771,64 +780,65 @@ FOOTER DESKTOP .footerBox {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     display: flex;
-  }
-  
-  .registrant {
+}
+
+.registrant {
     margin-left: 3rem;
     margin-top: 2.8rem;
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid black;
     margin-bottom: 1.5rem;
-  }
-  
-  .registerGroup {
+}
+
+.registerGroup {
     display: flex;
-  }
-  
-  .registerGroup1 {
+}
+
+.registerGroup1 {
     display: flex;
-  }
-  
-  .footerOne {
+}
+
+.footerOne {
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
     width: 40%;
-  }
-  
-  .lookUp {
+}
+
+.lookUp {
     padding-right: 7rem;
     font-family: "Bodoni MT", serif;
     font-size: 17px;
     line-height: 20px;
     padding-bottom: 0.5rem;
     letter-spacing: 0.1rem;
-  }
-  
-  .registerGroup p {
+}
+
+.registerGroup p {
     padding-right: 7rem;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     line-height: 20px;
     padding-bottom: 0.5rem;
     letter-spacing: 5%;
-  }
-  
-  .registerGroup1 p {
+}
+
+.registerGroup1 p {
     padding-right: 9rem;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     line-height: 20px;
     padding-bottom: 0.5rem;
     letter-spacing: 5%;
-  }
-  .footerTwo {
+}
+
+.footerTwo {
     display: flex;
     align-items: center;
-  }
-  
-  .footerTwo h2 {
+}
+
+.footerTwo h2 {
     padding-left: 4rem;
     font-family: "Bodoni MT", serif;
     font-size: 25px;
@@ -836,25 +846,25 @@ FOOTER DESKTOP .footerBox {
     padding-bottom: 0.5rem;
     letter-spacing: 0.3rem;
     font-weight: lighter;
-  }
-  
-  /* SoMe Footer*/
-  
-  .footerSoMe {
+}
+
+/* SoMe Footer*/
+
+.footerSoMe {
     display: flex;
     justify-content: center;
-  }
-  
-  .footerSoMe img {
-    margin: 1.8rem;
-  }
+}
 
-  .footerBox {
-      display: flex;
-      flex-direction: column;
-      border-bottom: 1px solid #BDBDBD;
-  }
-  
+.footerSoMe img {
+    margin: 1.8rem;
+}
+
+.footerBox {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #BDBDBD;
+}
+
 
 /* here the footer ends  */
 
@@ -1021,7 +1031,7 @@ FOOTER DESKTOP .footerBox {
     }
 
 
-    .logos_for_retailing{
+    .logos_for_retailing {
         width: 85%;
     }
 
@@ -1030,9 +1040,9 @@ FOOTER DESKTOP .footerBox {
         text-align: center;
         padding-bottom: 3rem;
         width: 100%;
-      }
-      
-      .productNameAndPrice h1 {
+    }
+
+    .productNameAndPrice h1 {
         font-family: "Montserrat", sans-serif;
         font-size: 50px;
         line-height: 20px;
@@ -1042,30 +1052,30 @@ FOOTER DESKTOP .footerBox {
         margin: 0 auto;
         width: 40%;
         font-weight: lighter;
-      }
-      
-      .productNameAndPrice h2 {
+    }
+
+    .productNameAndPrice h2 {
         font-family: "Montserrat", sans-serif;
         font-size: 30px;
         line-height: 20px;
         padding-top: 1rem;
         font-weight: lighter;
-      }
-      
-      .productNameAndPrice {
+    }
+
+    .productNameAndPrice {
         position: relative;
         text-align: center;
         padding-bottom: 3rem;
         width: 100%;
-      }
-      
-      /*SHOP BAG*/
-      .addShopBag {
+    }
+
+    /*SHOP BAG*/
+    .addShopBag {
         text-align: center;
         padding-bottom: 3rem;
-      }
-      
-      .addShopBag button {
+    }
+
+    .addShopBag button {
         text-align: center;
         padding: 0.7rem;
         padding-left: 1.5rem;
@@ -1077,38 +1087,38 @@ FOOTER DESKTOP .footerBox {
         font-size: 14px;
         line-height: 20px;
         border: none;
-      }
-      
-      .availableText h3 {
+    }
+
+    .availableText h3 {
         font-family: "Bodoni Moda", serif;
         font-size: 11px;
         line-height: 20px;
         padding-bottom: 0.5rem;
         padding-left: 25%;
-      }
-      
-      .availableText p {
+    }
+
+    .availableText p {
         font-family: "proxima-nova", sans-serif;
         font-size: 11px;
         line-height: 20px;
         padding-bottom: 0.5rem;
         padding-left: 25%;
-      }
-      
-      .availableText {
+    }
+
+    .availableText {
         padding-bottom: 3rem;
-      }
-      
-      .productInfoDrop {
+    }
+
+    .productInfoDrop {
         font-family: freight-big-pro, serif;
         font-size: 16px;
         line-height: 20px;
         letter-spacing: 14%;
         display: flex;
         flex-direction: column;
-      }
-      
-      .productDetails {
+    }
+
+    .productDetails {
         display: flex;
         border-bottom: 1px solid #afafaf;
         padding-bottom: 0.3rem;
@@ -1118,39 +1128,40 @@ FOOTER DESKTOP .footerBox {
         margin: 0 auto;
         width: 40%;
         margin-bottom: 1.5rem;
-      }
-      
-      .imgArrow {
+    }
+
+    .imgArrow {
         align-items: flex-start;
-      }
-      
-      /*
+    }
+
+    /*
       /* Whole block*/
-      .productNameAndInfo {
+    .productNameAndInfo {
         width: 100%;
         height: 100%;
-      }
-      /* DROP MENU*/
-      .card {
+    }
+
+    /* DROP MENU*/
+    .card {
         position: relative;
         width: 100%;
         height: 100px;
         background-color: #f2f5f7;
         overflow: hidden;
         transition: height 0.5s ease-in-out;
-      }
-      
-      .card .content {
+    }
+
+    .card .content {
         display: flex;
         flex-direction: column;
         align-items: center;
-      }
-      
-      .footerBold {
+    }
+
+    .footerBold {
         margin: 3rem;
-      }
-      
-      .toggle {
+    }
+
+    .toggle {
         position: absolute;
         bottom: 0;
         right: 0;
@@ -1162,89 +1173,91 @@ FOOTER DESKTOP .footerBox {
         height: 40px;
         width: 60px;
         cursor: pointer;
-      }
-      
-      .card .active {
+    }
+
+    .card .active {
         height: 300px;
-      }
-      .toggle img {
+    }
+
+    .toggle img {
         transition: ease-in-out 0.5s;
         height: 900px;
-      }
-      
-      .card.active.toggle img {
+    }
+
+    .card.active.toggle img {
         transform: rotate(-180deg);
-      }
-      
-      .navigation {
+    }
+
+    .navigation {
         position: relative;
         top: 25px;
         border-top: 1px solid black;
-      }
-      
-      FOOTER DESKTOP .footerBox {
+    }
+
+    FOOTER DESKTOP .footerBox {
         height: 313px;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
         display: flex;
-      }
-      
-      .registrant {
+    }
+
+    .registrant {
         margin-left: 3rem;
         margin-top: 2.8rem;
         display: flex;
         flex-direction: column;
         border-bottom: 1px solid black;
         margin-bottom: 1.5rem;
-      }
-      
-      .registerGroup {
+    }
+
+    .registerGroup {
         display: flex;
-      }
-      
-      .registerGroup1 {
+    }
+
+    .registerGroup1 {
         display: flex;
-      }
-      
-      .footerOne {
+    }
+
+    .footerOne {
         display: flex;
         flex-direction: column;
         margin-bottom: 3rem;
         width: 40%;
-      }
-      
-      .lookUp {
+    }
+
+    .lookUp {
         padding-right: 7rem;
         font-family: "Bodoni MT", serif;
         font-size: 17px;
         line-height: 20px;
         padding-bottom: 0.5rem;
         letter-spacing: 0.1rem;
-      }
-      
-      .registerGroup p {
+    }
+
+    .registerGroup p {
         padding-right: 7rem;
         font-family: "Montserrat", sans-serif;
         font-size: 18px;
         line-height: 20px;
         padding-bottom: 0.5rem;
         letter-spacing: 5%;
-      }
-      
-      .registerGroup1 p {
+    }
+
+    .registerGroup1 p {
         padding-right: 9rem;
         font-family: "Montserrat", sans-serif;
         font-size: 18px;
         line-height: 20px;
         padding-bottom: 0.5rem;
         letter-spacing: 5%;
-      }
-      .footerTwo {
+    }
+
+    .footerTwo {
         display: flex;
         align-items: center;
-      }
-      
-      .footerTwo h2 {
+    }
+
+    .footerTwo h2 {
         padding-left: 4rem;
         font-family: "Bodoni MT", serif;
         font-size: 25px;
@@ -1252,26 +1265,26 @@ FOOTER DESKTOP .footerBox {
         padding-bottom: 0.5rem;
         letter-spacing: 0.3rem;
         font-weight: lighter;
-      }
-      
-      /* SoMe Footer*/
-      
-      .footerSoMe {
+    }
+
+    /* SoMe Footer*/
+
+    .footerSoMe {
         display: flex;
         justify-content: center;
-      }
-      
-      .footerSoMe img {
-        margin: 1.8rem;
-      }
+    }
 
-      .footerBox {
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          border-bottom: 1px solid #BDBDBD;
-      }
-      
+    .footerSoMe img {
+        margin: 1.8rem;
+    }
+
+    .footerBox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 1px solid #BDBDBD;
+    }
+
 }
 
 /* this is for the navigation bar,here it ends  */
@@ -1315,7 +1328,7 @@ FOOTER DESKTOP .footerBox {
     }
 
 
-    .logos_for_retailing{
+    .logos_for_retailing {
         width: 75%;
     }
 }
@@ -1332,18 +1345,18 @@ FOOTER DESKTOP .footerBox {
         font-size: 23px;
     }
 
-    .logos_for_retailing{
+    .logos_for_retailing {
         width: 50%;
     }
 
 }
 
-.small_image{
+.small_image {
     background-image: url("/images_for_the_slide_bar/first.png");
     width: 100%;
     height: 100%;
 }
 
-.big_image{
+.big_image {
     background-image: url("/images_for_the_slide_bar/workshop_for_desktop.jpg");
 }

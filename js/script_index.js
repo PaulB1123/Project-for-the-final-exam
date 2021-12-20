@@ -12,7 +12,7 @@ const workshop_desktop = document.querySelector("#workshop_desktop");
 const mediaQuery = window.matchMedia("(max-width: 700px)");
 if (mediaQuery.matches) {
   console.log("query1");
-  logo_to_use.classList.add("small_logo");
+  // logo_to_use.classList.add("small_logo");
   burger_menu.classList.add("unhidden");
   // sorting_obtion.classList.add("hidden");
   workshop_desktop.classList.add("hidden");
@@ -34,7 +34,7 @@ if (mediaQuery.matches) {
 const mediaQuery2 = window.matchMedia("(min-width: 700px)");
 if (mediaQuery2.matches) {
   console.log("query2");
-  logo_to_use.classList.add("big_logo");
+  // logo_to_use.classList.add("big_logo");
   burger_menu.classList.add("hidden");
   // sorting_obtion.classList.remove("hidden");
   li_v1.classList.remove("hidden");
