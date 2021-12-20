@@ -31,7 +31,7 @@
 }
 
 .logo {
-    background-image: url("images_for_the_navigation_bar/small_logo.svg");
+    background-image: url("/images_for_the_navigation_bar/small_logo.svg");
     display: block;
     width: 100%;
     height: 100%;
@@ -40,7 +40,7 @@
 @media (min-width: 700px) {
 
     .logo {
-        background-image: url("images_for_product_page/big_logo.svg");
+        background-image: url("/images_for_product_page/big_logo.svg");
         width: 50%;
         height: 50%;
     }
@@ -451,21 +451,41 @@ padding: 0rem;
     padding: 0rem;
 }
 
+.button_for_discover_contaier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    border-bottom: 0.6px solid #BDBDBD;
+}
 
 .button_for_discover {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
     height: 120px;
-    padding-bottom: 4rem;
+    /* padding-bottom: 4rem; */
     border-bottom: 0.6px solid #BDBDBD;
+    text-decoration: none;
 }
 
+.button_for_discover {
+    width: 40%;
+    background-color: #C7D4DD;
+    color: #FFFFFF;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* 
 button {
     background-color: #C7D4DD;
-    /* Green */
+    /* Green 
     border: none;
     color: black;
     padding: 15px 32px;
@@ -475,7 +495,7 @@ button {
     font-size: 14px;
     letter-spacing: 3px;
     cursor: pointer;
-}
+} */
 
 /* MOST POPULAR ENDS */
 
@@ -709,7 +729,7 @@ main section {
     margin: 0.4rem;
     margin-top: 5rem;
     justify-content: space-evenly;
-    border-bottom: 0.6px solid #BDBDBD
+    /* border-bottom: 0.6px solid #BDBDBD */
 }
 
 .contains_type_list {
