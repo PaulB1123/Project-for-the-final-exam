@@ -1478,3 +1478,8 @@ FOOTER DESKTOP .footerBox {
         font-size: 19px;
     }
 }
+
+.follow_button {
+    font-family: "Freight_Big_Bold";
+    font-size: 20px; 
+}
