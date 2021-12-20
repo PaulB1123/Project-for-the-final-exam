@@ -32,6 +32,7 @@ fetch(url, options)
 // clone the template that we have for every period
 function handleData(items) {
     const mainEl = document.querySelector("main");
+    
     mainEl.innerHTML="";
     //here I grab each on of the elements from the array
     items.forEach((item) => {
@@ -46,6 +47,9 @@ function handleData(items) {
       copy.querySelector("h4").textContent = item.name;
       copy.querySelector("h5").textContent = item.price;
       copy.querySelector("img").setAttribute("src", item.imgurl);
+      document.querySelector(".main_hero_cups_poster img").setAttribute("src", item.imgurl);
+      document.querySelector(".main_hero_cups_poster h1").textContent = item.type;
+      document.querySelector(".main_hero_cups_poster p").textContent = item.description;
       //here I add the id of the band to have it on the http so it can be selected as a single element
       
     //   clone.querySelector("a").href = `category_page.html?type=${cup.type}`

@@ -524,7 +524,7 @@ button {
 
 video {
     width: 90%;
-    height: 30%;
+    height: 20%;
 }
 
 /* .video_container {
@@ -1040,7 +1040,7 @@ FOOTER DESKTOP .footerBox {
     }
 
     video {
-        width: 70%;
+        width: 45%;
         height: 30%;
         margin-bottom: 5rem;
     }
