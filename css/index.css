@@ -823,7 +823,7 @@ FOOTER DESKTOP .footerBox {
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
-    width: 40%;
+    width: 90%;
 }
 
 .lookUp {
@@ -856,6 +856,7 @@ FOOTER DESKTOP .footerBox {
 .footerTwo {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .footerTwo h2 {
@@ -1219,6 +1220,7 @@ FOOTER DESKTOP .footerBox {
         border-top: 1px solid black;
         border-bottom: 1px solid black;
         display: flex;
+        flex-direction: row;
     }
 
     .registrant {
@@ -1242,7 +1244,7 @@ FOOTER DESKTOP .footerBox {
         display: flex;
         flex-direction: column;
         margin-bottom: 3rem;
-        width: 40%;
+        width: 30%;
     }
 
     .lookUp {
@@ -1275,6 +1277,7 @@ FOOTER DESKTOP .footerBox {
     .footerTwo {
         display: flex;
         align-items: center;
+        flex-direction: row;
     }
 
     .footerTwo h2 {
@@ -1298,13 +1301,18 @@ FOOTER DESKTOP .footerBox {
         margin: 1.8rem;
     }
 
+    
     .footerBox {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         border-bottom: 1px solid #BDBDBD;
     }
 
+    .footerOne {
+       width: 60% ; 
+    }
+ 
 }
 
 /* this is for the navigation bar,here it ends  */
@@ -1351,6 +1359,22 @@ FOOTER DESKTOP .footerBox {
     .logos_for_retailing {
         width: 75%;
     }
+
+    .footerBox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 1px solid #BDBDBD;
+    }
+
+    .footerOne {
+       width: 30% ; 
+    }
+    
+    .footerTwo {
+        margin-left: 15% ; 
+     }
+
 }
 
 @media (min-width: 1800px) {
@@ -1380,3 +1404,11 @@ FOOTER DESKTOP .footerBox {
 .big_image {
     background-image: url("/images_for_the_slide_bar/workshop_for_desktop.jpg");
 } */
+
+
+@media (mmax-width: 700px) {
+.footerTwo {
+    display: flex;
+    flex-direction: column;
+}
+}

@@ -136,8 +136,7 @@
 @import url("https://use.typekit.net/qxm2zyz.css");
 
 * {
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
 }
 
@@ -415,7 +414,7 @@ FOOTER DESKTOP .footerBox {
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
-    width: 40%;
+    width: 90%;
 }
 
 .lookUp {
@@ -448,6 +447,7 @@ FOOTER DESKTOP .footerBox {
 .footerTwo {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .footerTwo h2 {
@@ -957,7 +957,7 @@ main {
         display: flex;
         flex-direction: column;
         margin-bottom: 3rem;
-        width: 40%;
+        width: 60%;
     }
 
     .lookUp {
@@ -990,6 +990,7 @@ main {
     .footerTwo {
         display: flex;
         align-items: center;
+        flex-direction: row;
     }
 
     .footerTwo h2 {
@@ -1015,7 +1016,7 @@ main {
 
     .footerBox {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         border-bottom: 1px solid #BDBDBD;
     }
@@ -1030,6 +1031,24 @@ main {
         justify-content: space-evenly;
         border-bottom: 0.6px solid #BDBDBD
     } */
+
+}
+
+@media (min-width: 1300px) {
+    .footerBox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 1px solid #BDBDBD;
+    }
+
+    .footerOne {
+        width: 30%;
+    }
+
+    .footerTwo {
+        margin-left: 15%;
+    }
 
 }
 
