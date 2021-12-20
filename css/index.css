@@ -895,7 +895,7 @@ FOOTER DESKTOP .footerBox {
     }
 
     .third-slide {
-        background-image: url("/images_for_the_slide_bar/workshop_for_desktop.jpg");
+        background-image: url("images_for_the_slide_bar/workshop_for_desktop.jpg");
         z-index: 100;
         width: 130%;
     }
@@ -1350,7 +1350,7 @@ FOOTER DESKTOP .footerBox {
     }
 
 }
-
+/* 
 .small_image {
     background-image: url("/images_for_the_slide_bar/first.png");
     width: 100%;
@@ -1359,4 +1359,4 @@ FOOTER DESKTOP .footerBox {
 
 .big_image {
     background-image: url("/images_for_the_slide_bar/workshop_for_desktop.jpg");
-}
+} */
