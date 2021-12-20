@@ -472,15 +472,19 @@ padding: 0rem;
 }
 
 .button_for_discover {
-    width: 40%;
+    width: 30%;
+    height: 2.5rem;
     background-color: #C7D4DD;
-    color: #FFFFFF;
+    color: black;
     padding: 7px 10px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 12px;
     opacity: 0.9;
 }
+
+
+
 
 /* 
 button {
@@ -654,6 +658,8 @@ border-bottom: 0.6px solid  #BDBDBD;
 .find_me {
     width: 100%;
     height: 100%;
+    margin-top: 7rem;
+    border-top: 0.6px solid #BDBDBD;
     border-bottom: 0.6px solid #BDBDBD;
     /* margin-bottom:13rem; */
 }
@@ -1030,7 +1036,7 @@ FOOTER DESKTOP .footerBox {
     }
 
     .entire_ {
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
         width: 90%;
     }
 
@@ -1342,6 +1348,7 @@ FOOTER DESKTOP .footerBox {
     .entire_ {
         margin-left: 1rem;
         width: 80%;
+        
     }
 
     .discover h2 {
@@ -1359,6 +1366,7 @@ FOOTER DESKTOP .footerBox {
     .logos_for_retailing {
         width: 75%;
     }
+
 
     .footerBox {
         display: flex;
@@ -1404,9 +1412,28 @@ FOOTER DESKTOP .footerBox {
 .big_image {
     background-image: url("/images_for_the_slide_bar/workshop_for_desktop.jpg");
 } */
+.button_for_discover_v2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
+}
 
+.button_for_discover_v2 a{
 
+    background-color: #C7D4DD;
+    color: black;
+    padding: 20px 40px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.9;
+
+}
 
 @media (min-width: 700px) {
     #burger_menu {
@@ -1417,6 +1444,13 @@ FOOTER DESKTOP .footerBox {
     }
     #logo_to_use{
         display: none; 
+    }
+
+
+    .button_for_discover {
+        width: 25%;
+        height: 3rem;
+        font-size: 13px;
     }
     }
  
@@ -1437,3 +1471,10 @@ FOOTER DESKTOP .footerBox {
     }
     }
 
+@media (min-width: 1300px) {
+    .button_for_discover {
+        width: 20%;
+        height: 4.3rem;
+        font-size: 19px;
+    }
+}

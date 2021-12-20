@@ -23,7 +23,7 @@
 
 /* LOGO TO CHANGE START*/
 
-#logo_to_use {
+/* #logo_to_use {
     width: 30px;
     height: 30px;
 
@@ -44,7 +44,7 @@
         height: 50%;
     }
 
-}
+} */
 
 .hidden {
     display: none;
@@ -169,7 +169,7 @@
 .productNameAndPrice h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
-    line-height: 20px;
+    line-height: 40px;
     padding-top: 1rem;
     border-bottom: 1px solid #afafaf;
     padding-bottom: 1rem;
@@ -784,26 +784,26 @@ main {
         position: relative;
         text-align: center;
         padding-bottom: 3rem;
-        width: 100%;
+        width: 50%;
     }
 
     .productNameAndPrice h1 {
         font-family: "Montserrat", sans-serif;
-        font-size: 50px;
+        font-size: 30px;
         line-height: 40px;
         padding-top: 1rem;
         border-bottom: 1px solid #afafaf;
         padding-bottom: 1.5rem;
         margin: 0 auto;
-        width: 40%;
+        width: 80%;
         font-weight: lighter;
     }
 
     .productNameAndPrice h2 {
         font-family: "Montserrat", sans-serif;
-        font-size: 30px;
-        line-height: 20px;
-        padding-top: 1rem;
+        font-size: 25px;
+        line-height: 10px;
+        padding-top: 0.3rem;
         font-weight: lighter;
     }
 
@@ -836,7 +836,7 @@ main {
 
     .availableText h3 {
         font-family: "Bodoni Moda", serif;
-        font-size: 11px;
+        font-size: 15px;
         line-height: 20px;
         padding-bottom: 0.5rem;
         padding-left: 5%;
@@ -844,7 +844,7 @@ main {
 
     .availableText p {
         font-family: "proxima-nova", sans-serif;
-        font-size: 11px;
+        font-size: 13px;
         line-height: 20px;
         padding-bottom: 0.5rem;
         padding-left: 5%;
@@ -1060,6 +1060,24 @@ main {
         margin-left: 15%;
     }
 
+    .productNameAndPrice h1 {
+        font-size: 40px;
+        line-height: 60px;
+        width: 60%;
+    }
+
+    .productNameAndPrice h2 {
+        font-size: 30px;
+        line-height: 10px;
+        
+    }
+
+    .availableText h3{ font-size: 23px;}
+
+    .availableText p {
+        font-size: 14px;
+    }
+
 }
 
 @media (min-width: 1300px) {
@@ -1128,7 +1146,9 @@ main {
     #burger_menu {
         display: none;
     }
-
+    #logo_to_use{
+        display: none; 
+    }
 
     }
  
@@ -1140,4 +1160,7 @@ main {
         display: none;
     }
 
+    #logo_to_use_big {
+        display: none; 
+    }
     }
